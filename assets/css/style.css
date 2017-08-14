@@ -1,0 +1,141 @@
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(rapkings.jpg) no-repeat;
+    background-size: cover; 
+}
+span {
+    color: white;
+    font-weight: bold;
+}
+span img{
+
+}
+/*img{
+    width: 200px
+    height: 200px;
+}*/
+.text-white{
+    color: white;
+   -webkit-text-fill-color: blue; 
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: rgb(255,255,255);
+}
+/*#ring img{
+    width: 30%;
+    height: auto;
+}*/
+#select {
+    margin-bottom: 20px;
+    display: inherit;
+}
+
+#select div {
+    text-align: center;
+    width: 20%;
+    margin-left: 4%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgba(204,0,255,.8);
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#select div:active{
+    background-color: rgba(255,255,255,.4);
+}
+#select div:hover{
+    background-color: rgba(44,13,255,.5);    
+}
+
+#select img {
+    height: 275px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    border-radius: 5px;
+}
+#ring {
+    overflow: auto;
+    margin-bottom: 20px;
+    display: none;
+}
+
+ #player1{
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgba(204,0,255,.8);
+    padding: 5px 5px 5px 5px;
+}
+
+ #player2 {
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgba(204,0,255,.8);
+    padding: 5px 5px 5px 5px;
+}
+
+#player1 img {
+    height: 375px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    border-radius: 5px;    
+}
+#player2 img {
+    height: 375px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#ring #attack {
+    margin-top: 13%;
+    margin-left: 5%;
+    margin-right: -4%;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgba(204,0,255,.8);
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 28%;
+    text-align: center;
+}
+#ring #attack:active {
+    background-color: rgba(44,13,255,.5);
+}
+#play {
+    margin-top: 11%;
+    margin-left: 4%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid #255;
+    padding: 5px 5px 5px 5px;
+    color: white;
+}
+* {
+    box-sizing: border-box;
