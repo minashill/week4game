@@ -14,7 +14,7 @@
     </style>
   </head>
   <body>
-  <video playsinline autoplay muted loop poster="hiphop.jpg" id="bgvid">    
+  <video playsinline autoplay muted loop poster="assets/images/hiphop.jpg" id="bgvid">    
     <source src="assets/images/street.mp4" type="video/mp4">
   </video>
   <br>
@@ -38,9 +38,11 @@
     
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript">
-      jQuery(function(){
-        
-      });
+      window.onload = function() {
+      audioElement.play();
+    };
+    var audioElement = document.createElement("audio");
+    audioElement.setAttribute("src", "assets/audio/w2.mp3");
     </script>
   </body>
 </html>
